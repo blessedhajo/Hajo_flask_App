@@ -4,7 +4,6 @@ from flask import Flask,redirect, render_template,request,url_for
 from flask_sqlalchemy import SQLAlchemy
 import os
 
-
 app = Flask(__name__)
 
 # todoData = []
